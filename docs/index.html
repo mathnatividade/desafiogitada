@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/style.css">
   <title>Meu Blog</title>
 </head>
 <body>
@@ -10,20 +11,16 @@
   <ul id="posts-list"></ul>
 
   <script>
-    // Obtém a referência da lista de posts
+    // Obtém a lista de posts
     const postsList = document.getElementById('posts-list');
 
-    // Lista de links para os posts
+    // Lista de os posts
     const posts = [
-      // Adicione aqui os links para os posts
-      // Supondo que os arquivos sejam .html e estão na pasta posts
-      // Exemplo: { title: 'Meu Post', file: 'posts/meu-post.html' }
       { title: 'Começando com o Git', file: 'posts/começando_com_o_git.html' },
       { title: 'Instalando Ubuntu com WSL', file: 'posts/como_instalar_o_ubuntu_com_wsl.html' }
-      // ...
     ];
 
-    // Função para criar os links dinamicamente
+    // Criar os links 
     function createPostLinks() {
       posts.forEach(post => {
         const listItem = document.createElement('li');
@@ -36,7 +33,7 @@
       });
     }
 
-    // Chamada da função para criar os links
+    // Chamada para criar os links
     createPostLinks();
   </script>
   <footer>
