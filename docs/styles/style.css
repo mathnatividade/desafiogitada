@@ -34,6 +34,7 @@ header {
 header h1 {
     font-size: 2em;
     margin-bottom: 0.5em;
+    color: #000000
 }
 
 header p {
@@ -59,6 +60,10 @@ footer {
     bottom: 0;
     width: 100%;
     color: #000000;
+}
+
+footer p {
+  color: #000000;
 }
 
 a {
