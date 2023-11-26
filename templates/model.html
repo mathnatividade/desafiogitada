@@ -7,9 +7,20 @@
     <title>{{ titulo }}</title>
 </head>
 <body>
-    <h1>{{ titulo }}</h1>
-    <p>Autor: {{ autor }}</p>
-    <p>Data: {{ data }}</p>
-    <p>{{ conteudo }}</p>
+    <header>
+        <h1>{{ titulo }}</h1>
+        <p>Autor: {{ autor }}</p>
+        <p>Data: {{ data }}</p>
+      </header>
+    
+      <main>
+        <article>
+          {{ conteudo }}
+        </article>
+      </main>
+    
+      <footer>
+        <p>© 2023 Meu Blog. Todos os direitos reservados.</p>
+      </footer>
 </body>
 </html>
