@@ -1,1 +1,44 @@
-<h1>"Hello World!"</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Blog</title>
+</head>
+<body>
+  <h1>Meu Blog</h1>
+
+  <ul id="posts-list"></ul>
+
+  <script>
+    // Obtém a referência da lista de posts
+    const postsList = document.getElementById('posts-list');
+
+    // Lista de links para os posts
+    const posts = [
+      // Adicione aqui os links para os posts
+      // Supondo que os arquivos sejam .html e estão na pasta posts
+      // Exemplo: { title: 'Meu Post', file: 'posts/meu-post.html' }
+      { title: 'Post 1', file: 'posts/como_pedir_um_aumento_pro_patrão_bruce.html' },
+      { title: 'Post 2', file: 'posts/como_se_tornar_o_asa_noturna.html' },
+      { title: 'Post 3', file: 'posts/como_trocar_o_óleo_do_batmóvel.html' }
+      // ...
+    ];
+
+    // Função para criar os links dinamicamente
+    function createPostLinks() {
+      posts.forEach(post => {
+        const listItem = document.createElement('li');
+        const link = document.createElement('a');
+        link.textContent = post.title;
+        link.href = post.file;
+
+        listItem.appendChild(link);
+        postsList.appendChild(listItem);
+      });
+    }
+
+    // Chamada da função para criar os links
+    createPostLinks();
+  </script>
+</body>
+</html>
