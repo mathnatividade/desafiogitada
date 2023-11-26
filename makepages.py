@@ -1,3 +1,4 @@
+import os
 import json
 from jinja2 import Template
 
@@ -19,5 +20,5 @@ for postagem in dados:
     )
 
     # Salva o HTML gerado em um arquivo
-    with open(f'posts/{postagem["titulo"].lower().replace(" ", "_")}.html', 'w') as output_file:
+    with open(f'docs/posts/{postagem["titulo"].lower().replace(" ", "_")}.html', 'w') as output_file:
         output_file.write(html)

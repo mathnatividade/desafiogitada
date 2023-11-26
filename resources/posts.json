@@ -1,9 +1,38 @@
 [
     {
-      "titulo": "Como trocar o óleo do Batmóvel",
+      "titulo": "Começando com o Git",
       "autor": "Batman",
       "data": "12/11/2023",
-      "conteudo": "Para isso precisaremos de algumas ferramentas especiais e o óleo forjado diretamente da Lua"
+      "conteudo": {
+        "Deixando o Git conhecer você": {
+          "Comando": "git config --global user.name \"Seu nome\"",
+          "Comando2": "git config --global user.email \"seu-email@example.com\""
+        },
+        "Iniciando o repositório Git local": {
+          "Comando": "git init"
+        },
+        "Clonar repositório remoto do GitHub": {
+          "Comando": "git clone url_repositorio"
+        },
+        "Verificar alterações dos arquivos": {
+          "Comando": "git status"
+        },
+        "Adicionar arquivo para commit": {
+          "Comando": "git add nome_do_arquivo"
+        },
+        "Adicionar todos arquivos da pasta para commit": {
+          "Comando": "git add ."
+        },
+        "Fazer commit das mudanças": {
+          "Comando": "git commit -m \"Mensagem do commit\""
+        },
+        "Enviar mudanças para o repositório remoto no GitHub": {
+          "Comando": "git push origin nome_da_branch"
+        },
+        "Baixar alterações do repositório remoto": {
+          "Comando": "git pull origin nome_da_branch"
+        }
+      }
     },
     {
       "titulo": "Como se tornar o Asa Noturna",
