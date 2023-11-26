@@ -6,16 +6,10 @@
       "conteudo": "Deixando o Git conhecer você:\nComando 1: git config --global user.name Seu nome\nComando 2: git config --global user.email seu-email@example.com\n\nIniciando o repositório Git local: git init\n\nClonar repositório remoto do GitHub: git clone url_repositorio\n\nVerificar alterações dos arquivos: git status\n\nAdicionar arquivo para commit: git add nome_do_arquivo\n\nAdicionar todos arquivos da pasta para commit: git add .\n\nFazer commit das mudanças: git commit -m 'Mensagem do commit'\n\nEnviar mudanças para o repositório remoto no GitHub: git push origin nome_da_branch\n\nBaixar alterações do repositório remoto: git pull origin nome_da_branch"
     },
     {
-      "titulo": "Como se tornar o Asa Noturna",
+      "titulo": "Como instalar o Ubuntu com WSL",
       "autor": "Robin",
       "data": "17/11/2023",
-      "conteudo": "Antes de tudo é importante que você tenha passado pelo processo de ter sido o Robin"
-    },
-    {
-      "titulo": "Como pedir um aumento pro patrão Bruce",
-      "autor": "Alfred",
-      "data": "25/11/2023",
-      "conteudo": "Comece fazendo um ótimo café da manhã e polindo as ferramentas do outro trabalho do patrão"
+      "conteudo": "Habilite o WSL no Windows\n\nInstale o Ubuntu pela Microsof Store\n\nPronto! Agora só aproveitar seu Linux no Windows pelo terminal."
     }
   ]
   
