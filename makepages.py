@@ -6,6 +6,10 @@ from jinja2 import Template
 with open('resources/posts.json') as json_file:
     dados = json.load(json_file)
 
+# Substitui as quebras de linha por <br> no conteúdo
+for postagem in dados:
+    postagem['conteudo'] = postagem['conteudo'].replace('\n', '<br>')
+
 # Carrega o template HTML
 with open('templates/model.html') as template_file:
     template = Template(template_file.read())
