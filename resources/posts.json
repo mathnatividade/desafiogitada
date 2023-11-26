@@ -3,36 +3,7 @@
       "titulo": "Começando com o Git",
       "autor": "Batman",
       "data": "12/11/2023",
-      "conteudo": {
-        "Deixando o Git conhecer você": {
-          "Comando": "git config --global user.name \"Seu nome\"",
-          "Comando2": "git config --global user.email \"seu-email@example.com\""
-        },
-        "Iniciando o repositório Git local": {
-          "Comando": "git init"
-        },
-        "Clonar repositório remoto do GitHub": {
-          "Comando": "git clone url_repositorio"
-        },
-        "Verificar alterações dos arquivos": {
-          "Comando": "git status"
-        },
-        "Adicionar arquivo para commit": {
-          "Comando": "git add nome_do_arquivo"
-        },
-        "Adicionar todos arquivos da pasta para commit": {
-          "Comando": "git add ."
-        },
-        "Fazer commit das mudanças": {
-          "Comando": "git commit -m \"Mensagem do commit\""
-        },
-        "Enviar mudanças para o repositório remoto no GitHub": {
-          "Comando": "git push origin nome_da_branch"
-        },
-        "Baixar alterações do repositório remoto": {
-          "Comando": "git pull origin nome_da_branch"
-        }
-      }
+      "conteudo": "Deixando o Git conhecer você:\nComando 1: git config --global user.name Seu nome\nComando 2: git config --global user.email seu-email@example.com\n\nIniciando o repositório Git local: git init\n\nClonar repositório remoto do GitHub: git clone url_repositorio\n\nVerificar alterações dos arquivos: git status\n\nAdicionar arquivo para commit: git add nome_do_arquivo\n\nAdicionar todos arquivos da pasta para commit: git add .\n\nFazer commit das mudanças: git commit -m 'Mensagem do commit'\n\nEnviar mudanças para o repositório remoto no GitHub: git push origin nome_da_branch\n\nBaixar alterações do repositório remoto: git pull origin nome_da_branch"
     },
     {
       "titulo": "Como se tornar o Asa Noturna",
