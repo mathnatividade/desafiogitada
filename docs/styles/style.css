@@ -28,6 +28,7 @@ header {
     background-color: #f3f3f3;
     text-align: center;
     padding: 20px 0;
+    color: #000000
 }
 
 header h1 {
@@ -36,7 +37,7 @@ header h1 {
 }
 
 header p {
-    color: #777;
+    color: #000000;
 }
 
 main {
@@ -57,7 +58,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    color: #777;
+    color: #000000;
 }
 
 a {
